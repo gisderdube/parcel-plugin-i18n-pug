@@ -1,0 +1,22 @@
+{
+    "name": "parcel-plugin-i18n-pug",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gisderdube/parcel-plugin-i18n-pug.git"
+    },
+    "author": "Lukas Gisder-Dubé",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gisderdube/parcel-plugin-i18n-pug/issues"
+    },
+    "homepage": "https://dube.io",
+    "devDependencies": {
+        "parcel-bundler": "^1.11.0"
+    }
+}
