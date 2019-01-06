@@ -1,10 +1,10 @@
 {
     "name": "parcel-plugin-i18n-pug",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "",
-    "main": "index.js",
+    "main": "src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node test/index.js"
     },
     "repository": {
         "type": "git",
@@ -17,6 +17,18 @@
     },
     "homepage": "https://dube.io",
     "devDependencies": {
-        "parcel-bundler": "^1.11.0"
+        "parcel-bundler": "^1.11.0",
+        "pug": "^2.0.3",
+        "sass": "^1.15.2"
+    },
+    "i18n": {
+        "langs": [
+            "de",
+            "fr"
+        ],
+        "outFolder": "test/output/i18n/languages"
+    },
+    "dependencies": {
+        "fs-extra": "^7.0.1"
     }
 }
