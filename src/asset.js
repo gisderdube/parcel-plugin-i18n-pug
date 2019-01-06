@@ -22,6 +22,7 @@ class i18nPug extends PugAsset {
 
     async pretransform() {
         try {
+            if (this.basename.includes('/de/')) return
             const config = await this.getConfig(['package.json'])
             const pugConfig = (await this.getConfig(['.pugrc', '.pugrc.js', 'pug.config.js'])) || {}
 
